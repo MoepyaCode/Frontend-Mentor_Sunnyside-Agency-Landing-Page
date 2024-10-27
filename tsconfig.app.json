@@ -1,0 +1,77 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Path Setting */
+    "baseUrl": ".",
+    "paths": {
+      // Assets
+      "@app-assets": ["src/assets"],
+      "@app-assets/*": ["src/assets"],
+
+      // Components
+      "@app-components": ["src/components"],
+      "@app-components/*": ["src/components"],
+
+      // Config
+      "@app-config": ["src/config"],
+      "@app-config/*": ["src/config"],
+
+      // Data
+      "@app-data": ["src/data"],
+      "@app-data/*": ["src/data"],
+
+      // Hooks
+      "@app-hooks": ["src/hooks"],
+      "@app-hooks/*": ["src/hooks"],
+
+      // Layouts
+      "@app-layouts": ["src/layouts"],
+      "@app-layouts/*": ["src/layouts"],
+
+      // Pages
+      "@app-pages": ["src/pages"],
+      "@app-pages/*": ["src/pages"],
+
+      // Routes
+      "@app-routes": ["src/routes"],
+      "@app-routes/*": ["src/routes"],
+
+      // Services
+      "@app-services": ["src/services"],
+      "@app-services/*": ["src/services"],
+
+      // Store
+      "@app-store": ["src/store"],
+      "@app-store/*": ["src/store"],
+
+      // Types
+      "@app-types": ["src/types"],
+      "@app-types/*": ["src/types"],
+
+      // Utils
+      "@app-utils": ["src/utils"],
+      "@app-utils/*": ["src/utils"],
+    },
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
