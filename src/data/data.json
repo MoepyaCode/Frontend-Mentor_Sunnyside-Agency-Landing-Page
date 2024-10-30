@@ -1,0 +1,64 @@
+[
+    {
+        "category": "Information",
+        "title": "Transform your brand",
+        "text": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+        "device": {
+            "mobile": "assets/mobile/image-transform.jpg",
+            "desktop": "assets/desktop/image-transform.jpg"
+        }, 
+        "color": "hsl(51, 100%, 49%)"
+    },
+    {
+        "category": "Information",
+        "title": "Stand out to the right audience",
+        "text": "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
+        "device": {
+            "mobile": "assets/mobile/image-stand-out.jpg",
+            "desktop": "assets/desktop/image-stand-out.jpg"
+        },
+        "color": "hsl(7, 99%, 70%)"
+    },
+    {
+        "category": "Service",
+        "title": "Graphic design",
+        "text": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.",
+        "device": {
+            "mobile": "assets/mobile/image-graphic-design.jpg",
+            "desktop": "assets/desktop/image-graphic-design.jpg"
+        }
+    },
+    {
+        "category": "Service",
+        "title": "Photography",
+        "text": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
+        "device": {
+            "mobile": "assets/mobile/image-photography.jpg",
+            "desktop": "assets/desktop/image-photography.jpg"
+        }
+    },
+    {
+        "category": "Clients",
+        "title": "Client testimonials",
+        "clients": [
+            {
+                "name": "Emily R.",
+                "position": "Marketing Director",
+                "text": "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
+                "image": "assets/clients/image-emily.jpg"
+            },
+            {
+                "name": "Thomas S.",
+                "position": "Chief Operating Officer",
+                "text": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
+                "image": "assets/clients/image-thomas.jpg"
+            },
+            {
+                "name": "Jennie F.",
+                "position": "Business Owner",
+                "text": "Amazing! Sunnyside's results are truly impressive. We are so happy with the outcome!",
+                "image": "assets/clients/image-jennie.jpg"
+            }
+        ]
+    }
+]

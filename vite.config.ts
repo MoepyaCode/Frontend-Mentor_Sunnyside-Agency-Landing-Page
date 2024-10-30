@@ -13,14 +13,6 @@ export default defineConfig({
       "@app-assets": resolve(root, 'assets'),
       "@app-assets/*": resolve(root, 'assets/*'),
 
-      // Components
-      "@app-components": resolve(root, 'components'),
-      "@app-components/*": resolve(root, 'components/*'),
-
-      // Config
-      "@app-config": resolve(root, 'config'),
-      "@app-config/*": resolve(root, 'config/*'),
-
       // Data
       "@app-data": resolve(root, 'data'),
       "@app-data/*": resolve(root, 'data/*'),
@@ -37,25 +29,9 @@ export default defineConfig({
       "@app-pages": resolve(root, 'pages'),
       "@app-pages/*": resolve(root, 'pages/*'),
 
-      // Routes
-      "@app-routes": resolve(root, 'routes'),
-      "@app-routes/*": resolve(root, 'routes/*'),
-
-      // Services
-      "@app-services": resolve(root, 'services'),
-      "@app-services/*": resolve(root, 'services/*'),
-
-      // Store
-      "@app-store": resolve(root, 'store'),
-      "@app-store/*": resolve(root, 'store/*'),
-
       // Types
       "@app-types": resolve(root, 'types'),
-      "@app-types/*": resolve(root, 'types/*'),
-
-      // Utils
-      "@app-utils": resolve(root, 'utils'),
-      "@app-utils/*": resolve(root, 'utils/*'),
+      "@app-types/*": resolve(root, 'types/*')
     },
   },
 })

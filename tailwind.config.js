@@ -9,7 +9,11 @@ export default {
     extend: {
       screens: { xs: '375px' },
       fontFamily: {},
-      colors: {}
+      colors: {},
+      backgroundImage: {
+        'mobile-header': "url('/src/assets/mobile/image-header.jpg')",
+        'desktop-header': "url('/src/assets/desktop/image-header.jpg')",
+      }
     },
   },
   plugins: [],
