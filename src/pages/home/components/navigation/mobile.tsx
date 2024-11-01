@@ -1,4 +1,3 @@
-import { Assets } from "@app-assets";
 import { useState } from "react";
 
 const AltText = {
@@ -23,7 +22,7 @@ export default function Mobile() {
       <ul className="absolute right-0 top-[calc(100%+50px)] flex flex-col justify-evenly items-center min-w-[329px] min-h-[305px] bg-white z-[1] after:absolute after:-top-[24px] after:right-0 after:border-[12px] after:border-b-white after:border-r-white after:border-l-transparent after:border-t-transparent">
         {navLinks.map(renderNavLink)}
 
-        <button className="font-fraunces font-bold text-[15px] leading-[25px] -tracking-[.11px] text-center text-[#24303E] bg-[#FBD600] w-[140px] h-[56px] rounded-full" type="button">
+        <button className="font-fraunces font-bold text-[15px] leading-[25px] -tracking-[.11px] text-center text-[#24303E] bg-[#FBD600] w-[140px] h-[56px] rounded-full uppercase" type="button">
           contact
         </button>
       </ul>
@@ -32,10 +31,10 @@ export default function Mobile() {
 
   return (
     <nav className="relative flex justify-between items-center">
-      <img src={Assets.Logo} alt={AltText.Logo} />
+      <img src='/assets/logo.svg' alt={AltText.Logo} />
 
-      <button onClick={handleButtonClick}>
-        <img src={Assets.Icons.iconHamburger} alt={AltText.Hamburger} />
+      <button className={`${!isOpen ? 'opacity-100': 'opacity-75'} transition-opacity duration-300 ease-in-out`} onClick={handleButtonClick}>
+        <img src='/assets/icons/icon-hamburger.svg' alt={AltText.Hamburger} />
       </button>
 
       {isOpen && renderMobileMenu()}

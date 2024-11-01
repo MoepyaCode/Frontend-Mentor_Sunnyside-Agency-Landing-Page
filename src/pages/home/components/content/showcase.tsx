@@ -11,7 +11,7 @@ export default function Showcase(props: ShowCaseI) {
             <img
                 className='object-cover w-full h-full'
                 key={key}
-                src={`/src/${imageSrc}`}
+                src={`${imageSrc}`}
                 alt="showcase"
             />
         )

@@ -9,17 +9,9 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // Assets
-      "@app-assets": resolve(root, 'assets'),
-      "@app-assets/*": resolve(root, 'assets/*'),
-
-      // Assets
+      // Components
       "@app-components": resolve(root, 'components'),
       "@app-components/*": resolve(root, 'components/*'),
-
-      // Data
-      "@app-data": resolve(root, 'data'),
-      "@app-data/*": resolve(root, 'data/*'),
 
       // Hooks
       "@app-hooks": resolve(root, 'hooks'),

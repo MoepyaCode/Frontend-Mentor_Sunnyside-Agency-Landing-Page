@@ -6,7 +6,7 @@ export default function Service(props: ServicesDataI) {
   const { services } = props
 
   const renderService = (service: ServiceI, key: number) => {
-    const imageSrc = deviceType == 'desktop' || deviceType == 'tablet' ? `/src/${service.device.desktop}` : `/src/${service.device.mobile}`
+    const imageSrc = deviceType == 'desktop' || deviceType == 'tablet' ? `${service.device.desktop}` : `${service.device.mobile}`
     return (
       <Wrapper className="relative flex flex-col justify-end items-center" key={key}>
         <img className="object-cover object-top min-w-full max-h-[600px]" src={imageSrc} alt="" />

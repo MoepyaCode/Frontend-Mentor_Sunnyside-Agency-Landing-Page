@@ -24,7 +24,7 @@ export default function Information(props: Props) {
   const renderImage = () => {
     const imageSrc = deviceType === 'mobile' || deviceType === 'tablet' ? device.mobile : device.desktop;
     return (
-      <img className="object-cover min-w-full min-h-full" src={`/src/${imageSrc}`} />
+      <img className="object-cover min-w-full min-h-full" src={`${imageSrc}`} />
     )
   }
 

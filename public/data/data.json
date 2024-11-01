@@ -4,8 +4,8 @@
         "title": "Transform your brand",
         "text": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
         "device": {
-            "mobile": "assets/mobile/image-transform.jpg",
-            "desktop": "assets/desktop/image-transform.jpg"
+            "mobile": "/assets/mobile/image-transform.jpg",
+            "desktop": "/assets/desktop/image-transform.jpg"
         }
     },
     {
@@ -13,8 +13,8 @@
         "title": "Stand out to the right audience",
         "text": "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
         "device": {
-            "mobile": "assets/mobile/image-stand-out.jpg",
-            "desktop": "assets/desktop/image-stand-out.jpg"
+            "mobile": "/assets/mobile/image-stand-out.jpg",
+            "desktop": "/assets/desktop/image-stand-out.jpg"
         }
     },
     {
@@ -25,8 +25,8 @@
                 "title": "Graphic design",
                 "text": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.",
                 "device": {
-                    "mobile": "assets/mobile/image-graphic-design.jpg",
-                    "desktop": "assets/desktop/image-graphic-design.jpg"
+                    "mobile": "/assets/mobile/image-graphic-design.jpg",
+                    "desktop": "/assets/desktop/image-graphic-design.jpg"
                 }
             },
             {
@@ -34,8 +34,8 @@
                 "title": "Photography",
                 "text": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
                 "device": {
-                    "mobile": "assets/mobile/image-photography.jpg",
-                    "desktop": "assets/desktop/image-photography.jpg"
+                    "mobile": "/assets/mobile/image-photography.jpg",
+                    "desktop": "/assets/desktop/image-photography.jpg"
                 }
             }
         ]
@@ -48,19 +48,19 @@
                 "name": "Emily R.",
                 "position": "Marketing Director",
                 "testimonial": "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
-                "image": "assets/clients/image-emily.jpg"
+                "image": "/assets/clients/image-emily.jpg"
             },
             {
                 "name": "Thomas S.",
                 "position": "Chief Operating Officer",
                 "testimonial": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
-                "image": "assets/clients/image-thomas.jpg"
+                "image": "/assets/clients/image-thomas.jpg"
             },
             {
                 "name": "Jennie F.",
                 "position": "Business Owner",
                 "testimonial": "Amazing! Sunnyside's results are truly impressive. We are so happy with the outcome!",
-                "image": "assets/clients/image-jennie.jpg"
+                "image": "/assets/clients/image-jennie.jpg"
             }
         ]
     },
@@ -68,26 +68,26 @@
         "category": "Showcase",
         "images": [
             {
-                "mobile": "assets/mobile/image-gallery-milkbottles.jpg",
-                "desktop": "assets/desktop/image-gallery-milkbottles.jpg"
+                "mobile": "/assets/mobile/image-gallery-milkbottles.jpg",
+                "desktop": "/assets/desktop/image-gallery-milkbottles.jpg"
             },
             {
-                "mobile": "assets/mobile/image-gallery-orange.jpg",
-                "desktop": "assets/desktop/image-gallery-orange.jpg"
+                "mobile": "/assets/mobile/image-gallery-orange.jpg",
+                "desktop": "/assets/desktop/image-gallery-orange.jpg"
             },
             {
-                "mobile": "assets/mobile/image-gallery-cone.jpg",
-                "desktop": "assets/desktop/image-gallery-cone.jpg"
+                "mobile": "/assets/mobile/image-gallery-cone.jpg",
+                "desktop": "/assets/desktop/image-gallery-cone.jpg"
             },
             {
-                "mobile": "assets/mobile/image-gallery-sugar-cubes.jpg",
-                "desktop": "assets/desktop/image-gallery-sugarcubes.jpg"
+                "mobile": "/assets/mobile/image-gallery-sugar-cubes.jpg",
+                "desktop": "/assets/desktop/image-gallery-sugarcubes.jpg"
             }
         ]
     },
     {
         "category": "Footer",
-        "logo": "assets/logo.svg",
+        "logo": "/assets/logo.svg",
         "navigation": [
             {
                 "title": "About",

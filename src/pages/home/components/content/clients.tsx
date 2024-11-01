@@ -5,7 +5,7 @@ export default function Clients(props: ClientsTestimonialDataI) {
 
   const renderClientTestimonial = (client: ClientI, key: number) => (
     <Wrapper className="flex flex-col items-center gap-8 text-center" key={key}>
-      <img className="max-w-[72px] aspect-square rounded-full" src={`/src/${client.image}`} alt="" />
+      <img className="max-w-[72px] aspect-square rounded-full" src={`${client.image}`} alt="" />
 
       <p className="font-barlow font-semibold text-[18px] text-[#5B636D] leading-[32px] -tracking-[0.13px]">
         {client.testimonial}

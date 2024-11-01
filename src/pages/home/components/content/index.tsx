@@ -16,25 +16,25 @@ export default function MainContent({ data }: Props) {
             case 'Information':
                 return (
                     <Suspense fallback={<div>Loading Information...</div>} key={key}>
-                        <Information {...data as InformationI} />
+                        <Information key={key} {...data as InformationI} />
                     </Suspense>
                 )
             case 'Services':
                 return (
                     <Suspense fallback={<div>Loading Services...</div>} key={key}>
-                        <Service {...data as ServicesDataI} />
+                        <Service key={key} {...data as ServicesDataI} />
                     </Suspense>
                 )
             case 'Clients':
                 return (
                     <Suspense fallback={<div>Loading Clients...</div>} key={key}>
-                        <Clients {...data as ClientsTestimonialDataI} />
+                        <Clients key={key} {...data as ClientsTestimonialDataI} />
                     </Suspense>
                 )
             case 'Showcase':
                 return (
                     <Suspense fallback={<div>Loading Showcase...</div>} key={key}>
-                        <Showcase {...data as ShowCaseI} />
+                        <Showcase key={key} {...data as ShowCaseI} />
                     </Suspense>
                 )
             default:

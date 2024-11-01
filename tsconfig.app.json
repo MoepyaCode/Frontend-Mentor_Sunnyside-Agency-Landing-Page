@@ -17,17 +17,9 @@
     /* Path Setting */
     "baseUrl": ".",
     "paths": {
-      // Assets
-      "@app-assets": ["src/assets"],
-      "@app-assets/*": ["src/assets"],
-
       // Components
       "@app-components": ["src/components"],
       "@app-components/*": ["src/components"],
-
-      // Data
-      "@app-data": ["src/data"],
-      "@app-data/*": ["src/data"],
 
       // Hooks
       "@app-hooks": ["src/hooks"],
@@ -53,5 +45,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "public/assets"]
 }

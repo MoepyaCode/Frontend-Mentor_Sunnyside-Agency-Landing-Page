@@ -1,4 +1,3 @@
-import { Assets } from "@app-assets"
 import { faFacebookSquare, faInstagram, faPinterest, faTwitter, IconDefinition } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -43,7 +42,7 @@ export default function Footer(props: FooterI) {
     <footer className="grid place-items-center w-full px-[39px] pt-[64px] pb-[80px] bg-[#90D4C6]">
       <div className="w-full max-w-[297px] grid place-items-center">
 
-        <img className="object-cover min-w-[170px]" src={Assets.LogoFooter} alt="" />
+        <img className="object-cover min-w-[170px]" src='/assets/logo-footer.svg' alt="" />
 
         <ul className="flex justify-between mt-[40px] w-full">
           {navigation.map(renderNavigationLink)}

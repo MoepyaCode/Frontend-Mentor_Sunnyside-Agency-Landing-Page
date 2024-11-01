@@ -15,16 +15,16 @@ export default {
       colors: {},
       backgroundImage: {
         /* Hero Images */
-        'mobile-header': "url('/src/assets/mobile/image-header.jpg')",
-        'desktop-header': "url('/src/assets/desktop/image-header.jpg')",
+        'mobile-header': "url('/assets/mobile/image-header.jpg')",
+        'desktop-header': "url('/assets/desktop/image-header.jpg')",
 
         /* Graphic Design Images */
-        'mobile-graphic-design': "url('/src/assets/mobile/image-graphic-design.jpg')",
-        'desktop-graphic-design': "url('/src/assets/desktop/image-graphic-design.jpg')",
+        'mobile-graphic-design': "url('/assets/mobile/image-graphic-design.jpg')",
+        'desktop-graphic-design': "url('/assets/desktop/image-graphic-design.jpg')",
 
         /* Photography Images */
-        'mobile-photography': "url('/src/assets/mobile/image-photography.jpg')",
-        'desktop-photography': "url('/src/assets/desktop/image-photography.jpg')",
+        'mobile-photography': "url('/assets/mobile/image-photography.jpg')",
+        'desktop-photography': "url('/assets/desktop/image-photography.jpg')",
 
       }
     },
