@@ -1,28 +1,50 @@
-import Clients from "./clients"
-import Information from "./information"
-import Service from "./service"
+import React, { Suspense } from 'react'
+
+const Clients = React.lazy(() => import('./clients'))
+const Information = React.lazy(() => import('./information'))
+const Service = React.lazy(() => import('./service'))
+const Showcase = React.lazy(() => import('./showcase'))
 
 type Props = {
     data: DataI,
 }
 
-export default function MainContent(props: Props) {
-    const { data } = props
+export default function MainContent({ data }: Props) {
 
     const renderContentData = (data: DataTypes, key: number) => {
-        switch (data.category) {
+        switch (data.category as CategoryI) {
             case 'Information':
-                return <Information key={key} {...data as InformationI} />
-            case 'Service':
-                return <Service key={key} {...data as ServiceI} />
+                return (
+                    <Suspense fallback={<div>Loading Information...</div>} key={key}>
+                        <Information {...data as InformationI} />
+                    </Suspense>
+                )
+            case 'Services':
+                return (
+                    <Suspense fallback={<div>Loading Services...</div>} key={key}>
+                        <Service {...data as ServicesDataI} />
+                    </Suspense>
+                )
             case 'Clients':
-                return 'Clients Data'
+                return (
+                    <Suspense fallback={<div>Loading Clients...</div>} key={key}>
+                        <Clients {...data as ClientsTestimonialDataI} />
+                    </Suspense>
+                )
+            case 'Showcase':
+                return (
+                    <Suspense fallback={<div>Loading Showcase...</div>} key={key}>
+                        <Showcase {...data as ShowCaseI} />
+                    </Suspense>
+                )
             default:
-                return <Clients key={key} {...data as ClientsI} />
+                return null
         }
     }
 
     return (
-        data.map(renderContentData)
+        <>
+            {data.map(renderContentData)}
+        </>
     )
 }

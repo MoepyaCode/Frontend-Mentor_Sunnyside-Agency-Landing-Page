@@ -21,6 +21,10 @@
       "@app-assets": ["src/assets"],
       "@app-assets/*": ["src/assets"],
 
+      // Components
+      "@app-components": ["src/components"],
+      "@app-components/*": ["src/components"],
+
       // Data
       "@app-data": ["src/data"],
       "@app-data/*": ["src/data"],

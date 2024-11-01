@@ -11,9 +11,11 @@ export function useDeviceType(): DeviceTypeHook {
     }, [innerWidth])
 
     useEffect(() => {
-        if (innerWidth >= 768 && innerWidth < 1280) {
+        if (innerWidth >= 1024 && innerWidth < 1280) {
             setDeviceType('tablet')
-        } else if (innerWidth < 768) {
+        } else if (innerWidth >= 640 && innerWidth < 1024) {
+            setDeviceType('mobile-tablet')
+        } else if (innerWidth < 640) {
             setDeviceType('mobile')
         } else {
             setDeviceType('desktop')

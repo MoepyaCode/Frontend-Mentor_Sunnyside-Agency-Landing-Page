@@ -13,6 +13,10 @@ export default defineConfig({
       "@app-assets": resolve(root, 'assets'),
       "@app-assets/*": resolve(root, 'assets/*'),
 
+      // Assets
+      "@app-components": resolve(root, 'components'),
+      "@app-components/*": resolve(root, 'components/*'),
+
       // Data
       "@app-data": resolve(root, 'data'),
       "@app-data/*": resolve(root, 'data/*'),
